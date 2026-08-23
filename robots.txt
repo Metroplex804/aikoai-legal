@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://metroplex804.github.io/aikoai-legal/sitemap.xml
