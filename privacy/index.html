@@ -22,7 +22,7 @@
       <p class="eyebrow">Your information</p>
       <h1>Privacy Policy</h1>
       <p>This policy explains what information AikoAI processes, why it is needed, who helps us provide the service and the choices available to you.</p>
-      <span class="updated">Effective and last updated: 23 August 2026</span>
+      <span class="updated">Effective and last updated: 23 September 2026</span>
     </header>
 
     <div class="legal-layout">
@@ -41,16 +41,16 @@
         <section id="information">
           <h2>2. Information we process</h2>
           <h3>Account information</h3>
-          <p>When you use Sign in with Apple, we receive an Apple-provided account identifier and, depending on your Apple choices, your name and email address or Apple private relay address. We also process profile details you provide, such as your preferred name and learning preferences.</p>
+          <p>Sign in with Apple is optional. If you continue as a guest, AikoAI creates an authenticated anonymous identifier in Supabase so we can securely associate your profile, subscription state, usage and conversation data with your current AikoAI account. If you later use Sign in with Apple, we receive an Apple-provided account identifier and, depending on your Apple choices, your name and email address or Apple private relay address. We also process profile details you provide, such as your preferred name and learning preferences.</p>
 
           <h3>Voice conversations and conversation text</h3>
           <p>AikoAI sends microphone audio to OpenAI in realtime so the service can understand your speech and generate spoken replies. Conversation text, conversation summaries and related metadata may be stored in our backend. AikoAI does not claim to retain raw microphone recordings as audio files.</p>
 
           <h3>Persistent memories</h3>
-          <p>To make later conversations more useful, AikoAI may extract and store selected facts from your conversations, such as preferences, goals or relevant context. Stored memories may be retrieved in future sessions. Because memories are created using AI, they may sometimes be incomplete or inaccurate.</p>
+          <p>For Apple-linked accounts, AikoAI may extract and store selected facts from conversations, such as preferences, goals or relevant context, so they can be retrieved in future sessions. Persistent-memory extraction is disabled for guest accounts. Guest conversation text and related service data may still be stored as described above. Because memories are created using AI, they may sometimes be incomplete or inaccurate.</p>
 
           <h3>Subscription and usage information</h3>
-          <p>We process subscription entitlement status, product identifiers, billing-period dates, the voice allowance assigned to a period, seconds used and seconds remaining. Apple processes App Store payments. We do not receive your full payment-card details.</p>
+          <p>We process subscription entitlement status, product identifiers, billing-period dates, the voice allowance assigned to a period, seconds used and seconds remaining. This information is associated with the current authenticated AikoAI identifier, whether that identifier belongs to a guest or an Apple-linked account. Apple processes App Store payments. We do not receive your full payment-card details.</p>
 
           <h3>Technical and security information</h3>
           <p>We may process limited device, authentication, network, request, error and security information needed to operate the service, prevent abuse and investigate failures. We aim to avoid placing full conversation content or unnecessary personal information in production logs.</p>
@@ -58,14 +58,14 @@
           <h3>Support communications</h3>
           <p>If you contact support, we process your email address, message and any information you choose to include so we can respond and resolve the issue.</p>
 
-          <div class="notice"><strong>Please choose what you share.</strong> Voice conversations may be processed and remembered. Avoid sharing information you do not want processed, including unnecessary sensitive personal data or another person's confidential information.</div>
+          <div class="notice"><strong>Please choose what you share.</strong> Voice conversations are processed and conversation text may be stored whether you use AikoAI as a guest or with Sign in with Apple. Persistent-memory extraction is disabled for guest accounts. Avoid sharing information you do not want processed, including unnecessary sensitive personal data or another person's confidential information.</div>
         </section>
 
         <section id="purposes">
           <h2>3. Why we use information</h2>
           <p>Under UK data-protection law, we rely on one or more lawful bases depending on the activity:</p>
           <ul>
-            <li><strong>Performance of a contract:</strong> to create and manage your account, provide live voice conversations, personalise the service, operate memory features, enforce subscription access and show remaining usage.</li>
+            <li><strong>Performance of a contract:</strong> to create and manage your guest or Apple-linked AikoAI account, provide live voice conversations, personalise the service where applicable, operate memory features for eligible Apple-linked accounts, enforce subscription access and show remaining usage.</li>
             <li><strong>Legitimate interests:</strong> to keep AikoAI secure and reliable, prevent fraud and abuse, diagnose faults and improve service performance, balanced against your rights.</li>
             <li><strong>Legal obligations:</strong> to retain or disclose information where applicable law requires us to do so.</li>
             <li><strong>Consent:</strong> where consent is required. You separately control microphone access through iOS settings and can withdraw that device permission at any time.</li>
@@ -90,7 +90,7 @@
           <h2>5. How long information is kept</h2>
           <p>We keep information only for as long as reasonably needed for the purposes described here:</p>
           <ul>
-            <li>Account, profile, conversation text, summaries and memories are generally retained while your account remains active so the service and persistent-memory feature can work.</li>
+            <li>Profile, conversation text, summaries and related account data are generally retained while your guest or Apple-linked AikoAI account remains active so the service can work. Persistent memories are stored only for accounts where that feature is enabled; persistent-memory extraction is disabled for guest accounts.</li>
             <li>When your account is deleted, associated information is scheduled for deletion unless we must retain limited records for legal, security, fraud-prevention, dispute or financial obligations.</li>
             <li>Subscription, usage and transaction-related records may be retained for the period reasonably required for billing reconciliation, fraud prevention and legal compliance.</li>
             <li>Support correspondence is kept only as long as needed to handle the request and maintain a reasonable record of the resolution.</li>
